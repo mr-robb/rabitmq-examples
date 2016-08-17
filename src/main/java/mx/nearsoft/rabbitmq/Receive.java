@@ -12,7 +12,7 @@ import com.rabbitmq.client.ShutdownSignalException;
 
 public class Receive {
 
-	private final static String QUEUE_NAME = "MAIN_QUEUE1";
+	private final static String QUEUE_NAME = "ROBB_EXAMPLE_QUEUE";
 
 	public static void main(String[] args) throws IOException, TimeoutException, ShutdownSignalException,
 			ConsumerCancelledException, InterruptedException {
